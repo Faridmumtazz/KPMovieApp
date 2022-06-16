@@ -4,15 +4,14 @@ import android.os.Bundle
 import android.text.method.HideReturnsTransformationMethod
 import android.text.method.PasswordTransformationMethod
 import android.util.Log
-import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
+import androidx.fragment.app.Fragment
 import androidx.hilt.navigation.fragment.hiltNavGraphViewModels
 import androidx.navigation.Navigation
-import dagger.hilt.android.AndroidEntryPoint
 import mumtaz.binar.kpmovieapp.R
 import mumtaz.binar.kpmovieapp.data.utils.Status
 import mumtaz.binar.kpmovieapp.databinding.FragmentRegisterBinding

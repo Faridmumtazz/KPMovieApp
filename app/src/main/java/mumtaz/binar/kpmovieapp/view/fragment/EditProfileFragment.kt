@@ -15,7 +15,6 @@ import android.text.method.HideReturnsTransformationMethod
 import android.text.method.PasswordTransformationMethod
 import android.util.Base64
 import android.util.Log
-import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
@@ -24,9 +23,9 @@ import androidx.activity.result.contract.ActivityResultContracts
 import androidx.appcompat.app.AlertDialog
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.app.ActivityCompat
+import androidx.fragment.app.Fragment
 import androidx.hilt.navigation.fragment.hiltNavGraphViewModels
 import androidx.navigation.Navigation
-import dagger.hilt.android.AndroidEntryPoint
 import mumtaz.binar.kpmovieapp.R
 import mumtaz.binar.kpmovieapp.data.utils.Status
 import mumtaz.binar.kpmovieapp.databinding.FragmentEditProfileBinding
@@ -36,6 +35,7 @@ import java.io.ByteArrayOutputStream
 import java.util.*
 
 
+@Suppress("DEPRECATION")
 class EditProfileFragment : Fragment(), View.OnClickListener {
 
     private var _binding: FragmentEditProfileBinding? = null

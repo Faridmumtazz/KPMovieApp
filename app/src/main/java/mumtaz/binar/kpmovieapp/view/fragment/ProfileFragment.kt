@@ -7,13 +7,12 @@ import android.util.Base64
 import android.util.Log
 import android.view.*
 import androidx.appcompat.app.AlertDialog
-import androidx.fragment.app.Fragment
 import androidx.appcompat.app.AppCompatActivity
+import androidx.fragment.app.Fragment
 import androidx.hilt.navigation.fragment.hiltNavGraphViewModels
 import androidx.navigation.NavOptions
 import androidx.navigation.Navigation
 import androidx.recyclerview.widget.GridLayoutManager
-import dagger.hilt.android.AndroidEntryPoint
 import mumtaz.binar.kpmovieapp.R
 import mumtaz.binar.kpmovieapp.data.room.Favorite
 import mumtaz.binar.kpmovieapp.databinding.FragmentProfileBinding
@@ -108,7 +107,7 @@ class ProfileFragment : Fragment() {
             R.id.logout -> {
                 AlertDialog.Builder(requireContext()).setTitle("Logout")
                     .setMessage("Are you sure?")
-                    .setIcon(R.mipmap.ic_launcher_round)
+                    .setIcon(R.drawable.img_tmdb)
                     .setPositiveButton("Yes") { _, _ ->
                         viewModelUser.setImage("")
                         viewModelUser.setEmail("")
