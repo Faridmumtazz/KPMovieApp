@@ -35,8 +35,6 @@ class RegisterFragment  : Fragment(), View.OnClickListener {
     private var viewPass: Boolean = false
     private var viewKonfPass: Boolean = false
 
-    private var listUser: List<GetUserResponseItem> = emptyList()
-
 
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
