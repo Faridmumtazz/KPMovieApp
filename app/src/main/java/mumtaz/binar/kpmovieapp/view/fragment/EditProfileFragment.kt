@@ -1,3 +1,5 @@
+@file:Suppress("SameParameterValue")
+
 package mumtaz.binar.kpmovieapp.view.fragment
 
 import android.Manifest

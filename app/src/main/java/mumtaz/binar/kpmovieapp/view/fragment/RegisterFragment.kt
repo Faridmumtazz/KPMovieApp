@@ -15,7 +15,6 @@ import androidx.navigation.Navigation
 import mumtaz.binar.kpmovieapp.R
 import mumtaz.binar.kpmovieapp.data.utils.Status
 import mumtaz.binar.kpmovieapp.databinding.FragmentRegisterBinding
-import mumtaz.binar.kpmovieapp.model.users.GetUserResponseItem
 import mumtaz.binar.kpmovieapp.model.users.PostUserResponse
 import mumtaz.binar.kpmovieapp.view.dialogfragment.RegisterWaitDialogFragment
 import mumtaz.binar.kpmovieapp.viewmodel.UserApiViewModel
